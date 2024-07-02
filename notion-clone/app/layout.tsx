@@ -1,10 +1,12 @@
-import type { Metadata } from "next";
+import { Toaster } from "sonner";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from "next";
+
 import { ThemeProvider } from "@/components/prioviders/theme-provider";
 import { ConvexClientProvider } from "@/components/prioviders/convex-providers";
-import { Toaster } from "sonner";
 import { ModalProvider } from "@/components/prioviders/modal-provider";
+
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
