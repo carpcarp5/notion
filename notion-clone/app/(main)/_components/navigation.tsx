@@ -18,7 +18,7 @@ import { UserItem } from "./user-item";
 import { Item } from "./item";
 import { DocumentList } from "./document-list";
 import { TrashBox } from "./trash-box";
-import { Navbar } from "./Navbar";
+import { Navbar } from "./navbar"
 
 export const Navigation = () => {
     const settings = useSettings();
